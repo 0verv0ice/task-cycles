@@ -24,7 +24,6 @@ export function iterationCount(a) {
         a /= 2;
         count += 1;
     }
-    console.log(count);
     return count;
 }
 
@@ -44,5 +43,5 @@ export function symbolsReplace(message) {
         }
         count++;
     } while (count !== message.length);
-    console.log(new_message);
+    return new_message;
 }
